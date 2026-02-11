@@ -17,7 +17,7 @@ This project reproduces the original Swin Transformer architecture as described 
 |   **Patch Merging** | Downsample      | 2×2 merge, channels ×2                                            | 7 × 7 × 768   |
 |         **Stage 4** | Swin Block ×2   | Window-MSA / Shifted-Window-MSA<br>Heads=24, Window=7×7, MLP=3072 | 7 × 7 × 768   |
 |            **Head** | Global Avg Pool | –                                                                 | 768           |
-|                     | Linear          | Fully connected                                                   | #Classes      |
+|                     | Linear          | Fully connected                                                   | 200      |
 
 
 ## Dataset
