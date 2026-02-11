@@ -29,7 +29,7 @@ The training loss for 40 epochs for Swin-T is below
 
 
 ## Discussion
-This work aims to produce Swin-T under limited resources. Although we only train it for 40 epochs, compared with ViT, which we trained earlier and used same dataset, loss goes down smoothly and accuracy increases steadily. This is due to Swin-T having higher inductive bias. With local and shifted window attention, the model assumes that nearby pixels matter more than distant pixels. Moreover, patch merging helps it reduce resolution and increases channels, which assumes low-level features -> mid-level -> high-level semantics. These make Swin-T CNN-like but still preserve attention mechanism. As a result, Swin-T requires less data, compared to ViT.
+This work aims to produce Swin-T under limited resources. Although we only train it for 40 epochs, compared with ViT, which we trained earlier and used same dataset, loss goes down much smoothly and accuracy increases much steadily. This is due to Swin-T having higher inductive bias. With local and shifted window attention, the model assumes that nearby pixels matter more than distant pixels. Moreover, patch merging helps it reduce resolution and increases channels, which assumes low-level features -> mid-level -> high-level semantics. These make Swin-T CNN-like but still preserve attention mechanism. As a result, Swin-T requires less data, compared to ViT.
 
 ## References
 Liu, Z., Lin, Y., Cao, Y., Hu, H., Wei, Y., Zhang, Z., Lin, S., & Guo, B. (2021).
